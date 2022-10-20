@@ -59,7 +59,7 @@ export default class DrumMachine extends React.Component {
       document.getElementById("display").innerText = this.state.currentTune.name;
     }, 370);
 
-    inactivityAnimation(5000);
+    inactivityAnimation(3000);
   }
   componentDidMount() {
     document.addEventListener("keydown", this.handleKeyboardPress);
