@@ -169,7 +169,7 @@ class RightSide extends React.Component {
 function Footer() {
   return (
     <footer>
-      <div id="footer">This project was build using: HTML, CSS, JavaScript, React, jQuery, Bootstrap and SASS</div>
+      <div id="footer">This project was created using: HTML, CSS, JavaScript, React, jQuery, Bootstrap and SASS</div>
     </footer>
   );
 }
